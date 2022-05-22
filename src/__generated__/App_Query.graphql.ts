@@ -1,5 +1,5 @@
 /**
- * @generated SignedSource<<aee742e4f415fe2b941a105714003510>>
+ * @generated SignedSource<<07132eb7433dadf52fb6044def0b338c>>
  * @lightSyntaxTransform
  * @nogrep
  */
@@ -9,13 +9,13 @@
 // @ts-nocheck
 
 import { ConcreteRequest, Query } from 'relay-runtime';
-export type Test_Query$variables = {};
-export type Test_Query$data = {
+export type App_Query$variables = {};
+export type App_Query$data = {
   readonly field: string | null;
 };
-export type Test_Query = {
-  response: Test_Query$data;
-  variables: Test_Query$variables;
+export type App_Query = {
+  response: App_Query$data;
+  variables: App_Query$variables;
 };
 
 const node: ConcreteRequest = (function(){
@@ -33,7 +33,7 @@ return {
     "argumentDefinitions": [],
     "kind": "Fragment",
     "metadata": null,
-    "name": "Test_Query",
+    "name": "App_Query",
     "selections": (v0/*: any*/),
     "type": "Query",
     "abstractKey": null
@@ -42,20 +42,20 @@ return {
   "operation": {
     "argumentDefinitions": [],
     "kind": "Operation",
-    "name": "Test_Query",
+    "name": "App_Query",
     "selections": (v0/*: any*/)
   },
   "params": {
-    "cacheID": "1e9531b8c22919e41f95773e68009d45",
+    "cacheID": "5c1d260af5c94cf4b79ec14bda08fc1c",
     "id": null,
     "metadata": {},
-    "name": "Test_Query",
+    "name": "App_Query",
     "operationKind": "query",
-    "text": "query Test_Query {\n  field\n}\n"
+    "text": "query App_Query {\n  field\n}\n"
   }
 };
 })();
 
-(node as any).hash = "b14605db8dfd6435c42e7f76e2632648";
+(node as any).hash = "c59e1e77c23e75880eb921e1e8969710";
 
 export default node;
